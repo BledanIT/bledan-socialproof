@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./src/output.css">
+    <title>Frontend Mentor | Social proof section</title>
+  </head>
+  <body class="bg-back font-spartan font-normal text-main flex flex-col basis-0 h-screen">
+    <main class="grid grid-cols-1 grid-rows-1 lg:grid-cols-2 lg:grid-rows-2 gap-8 m-auto lg:w-2/3 px-4 lg:px-0 py-16 lg:py-4">
+      <section role="text" class="row-span-1 lg:col-span-1 text-center lg:text-left px-1 lg:pr-12">
+        <h1 class="text-3xl lg:text-5xl font-bold leading-6 tracking-tight px-5 lg:px-0 mb-4">10,000+ of our users love our products.</h1>
+        <p class="leading-5 lg:text-base">We only provide great products combined with excellent customer service.
+        See what our satisfied customers are saying about our services.</p>
+      </section>
+      <section role="ratings" class="row-span-1 lg:col-span-1 text-center lg:text-left">
+        <ul class="*:bg-lightneutral *:font-bold *:py-2 lg:*:px-6 lg:*:py-4 *:my-4 *:rounded-md lg:*:w-[84%]">
+          <li class="*:inline">
+            <i class="content-star"></i>
+            <i class="content-star"></i>
+            <i class="content-star"></i>
+            <i class="content-star"></i>
+            <i class="content-star"></i>
+            <br class="lg:hidden">
+            <p class="lg:ml-4">5 Stars in Reviews</p>
+          </li>
+          <li class="*:inline lg:ml-[8%]">
+            <i class="content-star"></i>
+            <i class="content-star"></i>
+            <i class="content-star"></i>
+            <i class="content-star"></i>
+            <i class="content-star"></i>
+            <br class="lg:hidden">
+            <p class="lg:ml-4">Rated 5 Stars in Report Guru</p>
+          </li>
+          <li class="*:inline lg:ml-[16%]">
+            <i class="content-star"></i>
+            <i class="content-star"></i>
+            <i class="content-star"></i>
+            <i class="content-star"></i>
+            <i class="content-star"></i>
+            <br class="lg:hidden">
+            <p class="lg:ml-4">Rated 5 Stars in BestTech</p>
+          </li>
+        </ul>
+      </section>
+      <section role="mentions" class="row-span-1 lg:col-span-2 flex flex-col lg:flex-row w-full *:bg-main *:text-back *:rounded-md *:my-4 gap-x-6 lg:*:content-between *:p-8">
+        <div role="card1" class="lg:-translate-y-4">
+          <div class="author-grid">
+            <img src="./src/images/image-colton.jpg" class="author-image">
+            <h2 class="author-info font-bold">Colton Smith</h2>
+            <h2 class="author-info font-normal text-secondary">Verified Buyer</h2>
+          </div>
+          <p class="pr-[0.15rem]">"We needed the same printed design as the one we had ordered a week prior.
+          Not only did they find the original order, but we also received it in time.
+          Excellent!"</p>
+        </div>
+        <div role="card2">
+          <div class="author-grid">
+            <img src="./src/images/image-irene.jpg" class="author-image">
+            <h2 class="author-info font-bold">Irene Roberts</h2>
+            <h2 class="author-info font-normal text-secondary">Verified Buyer</h2>
+          </div>
+          <p class="pr-[0.15rem]">"Customer service is always excellent and very quick turn around. Completely
+          delighted with the simplicity of the purchase and the speed of delivery."</p>
+        </div>
+        <div role="card3" class="lg:translate-y-4">
+          <div class="author-grid">
+            <img src="./src/images/image-anne.jpg" class="author-image">
+            <h2 class="author-info font-medium">Anne Wallace</h2>
+            <h2 class="author-info font-normal text-secondary">Verified Buyer</h2>
+          </div>
+          <p class="pr-[0.15rem]">"Put an order with this company and can only praise them for the very high
+          standard. Will definitely use them again and recommend them to everyone!"</p>
+        </div>
+      </section>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Bledan</a>.
+    </div>
+  </body>
+</html>

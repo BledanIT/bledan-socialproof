@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body{
+    font-size: 15px;
+}
+
+@layer components {
+    .author-grid {
+        @apply grid grid-cols-[1fr_2.5fr] grid-rows-2 h-10 w-44 items-center mb-6;
+    }
+
+    .author-image{
+        @apply col-span-1 row-span-2 rounded-full h-4/5;
+    }
+
+    .author-info{
+        @apply col-span-1 row-span-1;
+    }
+}
